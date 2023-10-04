@@ -17,6 +17,7 @@ Libraries used: matplotlib, pandas, numpy, scipy.stats, requests, time, datetime
 With the previously generated city dataset, a filter was applied for ideal weather conditions (subjective):
 - City max temperature between 25-30 degrees C
 - Cloudiness percentage of <= 20%
+
 The nearest hotel information was pulled using the [Geoapify API](https://apidocs.geoapify.com/), and plotted with the [hvplot](https://hvplot.holoviz.org/index.html) library.
 
 Libraries used:  hvplot, pandas, requests
